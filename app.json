@@ -1,6 +1,7 @@
 {
   "expo": {
     "name": "my-app",
+    "jsEngine": "hermes",
     "slug": "my-app",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -21,10 +22,18 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.aividcoaching.myapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
-  }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3a1d3d8e-8967-409b-9e70-5061e72ab144"
+      }
+    },
+    "sdkVersion": "50.0.0"
+  },
+  "name": "my-app"
 }
